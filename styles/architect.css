@@ -64,72 +64,82 @@ nav li a {
 .banner-description {
   color: rgb(114, 114, 114);
 }
-.banner img{
-    width: 100%;
-    margin-top: 20px;
+.banner img {
+  width: 100%;
+  margin-top: 20px;
 }
 /* main section styles */
-main{
+main {
   max-width: 1440px;
   margin: 70px auto;
-
 }
-.teams-container{
+.teams-container {
   display: flex;
   align-items: center;
 }
-.teams-img-container{
+.teams-img-container {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
 }
-.teams-content{
+.teams-content {
   padding-left: 70px;
   padding-right: 70px;
   width: 530px;
 }
-.teams-title{
+.teams-title {
   font-size: 2.8rem;
 }
-.teams-title .quick-list{
- font-weight: 500;
- color:#727272 ;
+.teams-title .quick-list {
+  font-weight: 500;
+  color: #727272;
 }
-.teams-title .features-text{
-  color: #FF900E;
+.teams-title .features-text {
+  color: #ff900e;
   font-weight: 700;
 }
-.teams-description{
+.teams-description {
   color: #727272;
   margin-bottom: 30px;
+}
+/* facts section related styles */
+.facts h3 {
+  color: rgb(19, 19, 19);
+  font-size: 3rem;
+  font-weight: 700;
+}
+.facts p {
+  color: #727272;
 }
 
 /* responsive media query */
 /* mobile devices */
 
-@media screen and (max-width:576px) {
-    header{
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    nav, .teams-container{
-        flex-direction: column;
-    }
-    .teams-img-container{
-      grid-template-columns: 1fr;
-    }
-    .teams-content{
-      width: 100%;
-      padding: 20px;
-    }
+@media screen and (max-width: 576px) {
+  header {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  nav,
+  .teams-container {
+    flex-direction: column;
+  }
+  .teams-img-container {
+    grid-template-columns: 1fr;
+  }
+  .teams-content {
+    width: 100%;
+    padding: 20px;
+  }
 }
 
 /* tablet or medium devices */
-@media screen and (min-width:576px) and (max-width:960px) {
-    nav, .teams-container{
-        flex-direction: column;
-    }
-    header{
-        padding: 20px;
-    }
+@media screen and (min-width: 576px) and (max-width: 960px) {
+  nav,
+  .teams-container {
+    flex-direction: column;
+  }
+  header {
+    padding: 20px;
+  }
 }
