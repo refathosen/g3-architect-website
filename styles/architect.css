@@ -1,5 +1,65 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
-*{
-    font-family: "Work Sans", sans-serif;
+/* shared styles */
+
+* {
+  font-family: "Work Sans", sans-serif;
+}
+
+.btn-primary {
+  border-radius: 8px;
+  background: rgb(255, 144, 14);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px 25px;
+  border: 0;
+}
+
+/* header related styles */
+
+header {
+  background: rgba(255, 144, 14, 0.1);
+  padding: 50px 240px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-title {
+  color: rgb(19, 19, 19);
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+nav > ul {
+  display: flex;
+}
+nav li {
+  list-style: none;
+  margin-right: 30px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+nav li a {
+  color: rgb(66, 66, 66);
+  text-decoration: none;
+}
+
+/* banner related styles */
+.banner-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+.banner-title {
+  color: rgb(19, 19, 19);
+  font-size: 4rem;
+  font-weight: 700;
+}
+.banner-description {
+  color: rgb(114, 114, 114);
 }
